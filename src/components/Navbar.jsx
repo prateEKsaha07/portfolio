@@ -1,7 +1,6 @@
 export default function Navbar() {
     return (
     <>
-        <h1>hello</h1>
         <nav className="fixed top-0 w-full bg-navy bg-opacity-90 z-50">
       <div className="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
         <div className="font-mono text-teal text-lg">yourname</div>

@@ -4,3 +4,31 @@
   src: local("SF Mono"), local("Menlo"), local("Monaco");
   font-weight: normal;
 }
+.lg\:col-span-8 {
+  width: 80%;
+  margin-right: 20%; /* Match sidebar width */
+}
+
+/* Right sidebar positioning */
+.lg\:col-span-4 {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #64ffda;
+  transition: width 0.3s;
+}
+.sidebar-link:hover::after {
+  width: 100%;
+}
