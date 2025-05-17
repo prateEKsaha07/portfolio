@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "SF Mono";
+  src: local("SF Mono"), local("Menlo"), local("Monaco");
+  font-weight: normal;
+}
